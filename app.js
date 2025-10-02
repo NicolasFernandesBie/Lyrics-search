@@ -7,7 +7,7 @@ form.addEventListener('submit', async (event) => {
   const artista = artistainput.value.trim()
 
   if (!artista) {
-    window.alert('Digite o nome do artista')
+    resultadocontainer.innerText = 'digite nome do artista'
     return
   }
   try {
